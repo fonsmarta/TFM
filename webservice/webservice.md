@@ -9,10 +9,10 @@ Una aplicación FastAPI contiene el siguiente árbol de directorios
 
 ## Dependencias
 Un proyecto FastAPI con acceso a DB tiene las siguientes dependencias.
-- Usa (Starlette)[https://www.starlette.io/] para la parte web
-- Usa (Pydantic)[https://docs.pydantic.dev/] para los datos
+- [Starlette](https://www.starlette.io/) para la parte web
+- [Pydantic](https://docs.pydantic.dev/) para los datos
 - Una base de datos con conector para python (SQLite en este caso, pero puede ser cualquiera)
-- Usa (SQLAlchemy)[https://www.sqlalchemy.org/]
+- [SQLAlchemy](https://www.sqlalchemy.org/)
 
 ## Funcionamiento
 Para arrancar el servicio basta con ejecutar
