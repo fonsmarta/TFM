@@ -8,7 +8,7 @@ Para la realización del webservice he elegido el framework **FastAPI**
 Una aplicación FastAPI contiene el siguiente árbol de directorios
 
 ``` .
-└── sql_app
+└── variants_app
     ├── __init__.py
     ├── crud.py
     ├── database.py
@@ -16,6 +16,12 @@ Una aplicación FastAPI contiene el siguiente árbol de directorios
     ├── models.py
     └── schemas.py
 ```
+- __init__.py es un archivo vacío que solo sirve para que Python sepa que variants_app es un package.
+- crud.py contiene funciones para interactuar con la base de datos haciendo operaciones CRUD
+- database.py implementa SQLAlchemy y establece la conexión a la DB
+- main.py implementa SQLAlchemy y hace uso del resto de módulos de la app. Su ejecución crea la estructura de tablas en la DB
+- models.py implementa SQLAlchemy y crea las clases que abstraen las tablas de la DB en objetos utilizables
+- schemas.py implementa Pydantic y crea el modelo de datos
 
 ## Dependencias
 Un proyecto FastAPI con acceso a DB tiene las siguientes dependencias.
