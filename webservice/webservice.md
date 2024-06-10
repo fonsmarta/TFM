@@ -8,13 +8,14 @@ Para la realización del webservice he elegido el framework **FastAPI**
 Una aplicación FastAPI contiene el siguiente árbol de directorios
 
 ``` .
- └── sql_app
-     ├── __init__.py
-     ├── crud.py
-     ├── database.py
-     ├── main.py
-     ├── models.py
-     └── schemas.py ```
+└── sql_app
+    ├── __init__.py
+    ├── crud.py
+    ├── database.py
+    ├── main.py
+    ├── models.py
+    └── schemas.py
+```
 
 ## Dependencias
 Un proyecto FastAPI con acceso a DB tiene las siguientes dependencias.
