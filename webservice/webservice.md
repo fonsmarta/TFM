@@ -43,3 +43,6 @@ El webservice será accesible desde la dirección
 ```http://127.0.0.1:8000```
 
 Como hemos indicado antes, se trata de un entorno de desarrollo y no hay que permitir el tráfico exterior a la red local por seguridad.
+
+## Utilización
+Para consumir los servicios ofrecidos por la aplicación web hay que acceder a los endpoints correspondientes con cualquier cliente. Cualquier navegador podría servir, ya que al no necesitar autentificación cualquiera tiene acceso. También se pueden usar Postman, Insomnia o desde la linea de comandos, CURL o la consola de Python.
