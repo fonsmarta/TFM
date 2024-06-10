@@ -31,7 +31,7 @@ Un proyecto FastAPI con acceso a DB tiene las siguientes dependencias.
 - [Starlette](https://www.starlette.io/) para la parte web
 - [Pydantic](https://docs.pydantic.dev/) para los datos
 - Una base de datos con conector para python (SQLite en este caso, pero puede ser cualquiera)
-- [SQLAlchemy](https://www.sqlalchemy.org/)
+- [SQLAlchemy](https://www.sqlalchemy.org/) que es una librería ORM (Object Relational Mapping) para el modelado de datos y establecer relaciones.
 
 ## Funcionamiento
 Para arrancar el servicio basta con ejecutar
