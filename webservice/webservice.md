@@ -7,6 +7,15 @@ Este proyecto tampoco incorpora una capa SSL para proteger la conexión TCP/IP, 
 Para la realización del webservice he elegido el framework **FastAPI**
 Una aplicación FastAPI contiene el siguiente árbol de directorios
 
+> .
+> └── sql_app
+>     ├── __init__.py
+>     ├── crud.py
+>     ├── database.py
+>     ├── main.py
+>     ├── models.py
+>     └── schemas.py
+
 ## Dependencias
 Un proyecto FastAPI con acceso a DB tiene las siguientes dependencias.
 - [Starlette](https://www.starlette.io/) para la parte web
