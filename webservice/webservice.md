@@ -16,5 +16,7 @@ Un proyecto FastAPI con acceso a DB tiene las siguientes dependencias.
 
 ## Funcionamiento
 Para arrancar el servicio basta con ejecutar
+
 ```uvicorn sql_app.main:app --reload```
+
 El webservice será accesible desde la dirección
