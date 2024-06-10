@@ -2,7 +2,6 @@ import sqlite3
 from Bio import Entrez
 import time
 
-
 # Configuración del correo electrónico para Entrez
 Entrez.email = "fonsmartap@gmail.com"
 
@@ -19,7 +18,6 @@ def obtenervariantes():
         return "error"
     finally:
         conn.close()
-
 
 listavariantes = obtenervariantes()
 
@@ -59,4 +57,3 @@ for variante in listavariantes:
         #updatevariante(variante, genID)
     else:
         continue
-
