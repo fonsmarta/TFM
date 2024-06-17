@@ -1,5 +1,5 @@
 # WebService
-Esta carpeta contiene el árbol de carpetas necesario para poder crear un servicio *REST* que permita operaciones *CRUD* en la base de datos a otras personas. Esto convierte el proyecto en colaborativo.
+Esta carpeta contiene el árbol de carpetas necesario para poder crear un servicio *REST* que permita operaciones *CRUD* en la base de datos a otras personas.
 
 Para la realización de este TFM no he incorporado seguridad al proyecto por falta de tiempo, pero un proyecto real debe incorporar un módulo que permita la creación y mantenimiento de cuentas de usuario autorizadas a acceder al servicio.
 
