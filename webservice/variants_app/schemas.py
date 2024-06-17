@@ -1,36 +1,41 @@
 from pydantic import BaseModel
 
 # ----------- Variantes -----------------
-class VariantBase(BaseModel):
-    nombre: str
+class VarianteBase(BaseModel):
+    Nombre: str
+    Start: int
+    End: int
+    Chr: int
+    MAF: float
+    AleloREF: str
+    AleloALT: str
 
-class VariantCreate(VariantBase):
+class VarianteCreate(VarianteBase):
     pass
 
-class Variant(VariantBase):
+class Variante(VarianteBase):
     id: int
-    id_gen: int
 
     class Config:
         orm_mode = True
 
 # -------------- Genes -------------------
 class GeneBase(BaseModel):
-    nombre: str
+    ID_GEN: str
 
 class GeneCreate(GeneBase):
     pass
 
 class Gene(GeneBase):
     ID_GEN: int
-    variants: list[Variant] = []
+    variants: list[Variante] = []
 
     class Config:
         orm_mode = True
 
 # --------------- rutas --------------------
 class PathwayBase(BaseModel):
-    email: str
+    ID_KEGG: int
 
 class PathwayCreate(PathwayBase):
     pass
